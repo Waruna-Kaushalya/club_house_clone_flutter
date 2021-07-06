@@ -73,7 +73,7 @@ class HomeScreen extends StatelessWidget {
                 gradient: LinearGradient(
                   colors: [
                     Theme.of(context).scaffoldBackgroundColor.withOpacity(0.1),
-                    Theme.of(context).scaffoldBackgroundColor.withOpacity(1.0),
+                    Theme.of(context).scaffoldBackgroundColor.withOpacity(0.0),
                   ],
                 ),
               ),
