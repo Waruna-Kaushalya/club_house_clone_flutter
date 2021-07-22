@@ -101,8 +101,8 @@ class RoomScreen extends StatelessWidget {
                     .map((e) => RoomUserProfile(
                           imageUrl: e.imageUrl,
                           name: e.givenName,
-                          iisNew: Random().nextBool(),
-                          isMuted: Random().nextBool(),
+                          isNew: true, //Random().nextBool(),
+                          isMuted: true, //Random().nextBool(),
                         ))
                     .toList(),
               ),
