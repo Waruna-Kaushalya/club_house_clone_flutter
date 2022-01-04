@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:clubhouse_ui_clone_flutter/data/data.dart';
 import 'package:clubhouse_ui_clone_flutter/widgets/widgets.dart';
 import 'package:flutter/cupertino.dart';

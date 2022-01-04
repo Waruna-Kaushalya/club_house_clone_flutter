@@ -84,7 +84,7 @@ class HomeScreen extends StatelessWidget {
             child: Container(
               padding: const EdgeInsets.all(12.0),
               decoration: BoxDecoration(
-                color: Theme.of(context).accentColor,
+                color: Theme.of(context).colorScheme.secondary,
                 borderRadius: BorderRadius.circular(24.0),
               ),
               child: const Text.rich(
@@ -131,7 +131,7 @@ class HomeScreen extends StatelessWidget {
                     width: 16.0,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Theme.of(context).accentColor,
+                      color: Theme.of(context).colorScheme.secondary,
                     ),
                   ),
                 ),

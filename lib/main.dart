@@ -17,10 +17,10 @@ class MyApp extends StatelessWidget {
         appBarTheme: const AppBarTheme(backgroundColor: Palette.background),
         scaffoldBackgroundColor: Palette.background,
         primaryColor: Colors.white,
-        accentColor: Colors.green,
         iconTheme: const IconThemeData(color: Colors.black),
         fontFamily: GoogleFonts.montserrat().fontFamily,
         textTheme: GoogleFonts.montserratTextTheme(),
+        colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.green),
       ),
       home: HomeScreen(),
     );
